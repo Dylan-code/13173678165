@@ -1,1 +1,1 @@
-新建的一个初始化文件！
+#include<stdio.h>
