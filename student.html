@@ -6,10 +6,31 @@
 <link rel="stylesheet" type="text/css" href="Assets/css/reset.css"/>
 <script type="text/javascript" src="Assets/js/jquery-1.8.3.min.js"></script>
 <link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
+    <style>
+        .float_stu{
+            position:absolute;
+            z-index:1000;
+            animation-name: example;
+            animation-duration: 100s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes example {
+            0%   {left:1730px; top:0px;}
+            25%  {left:0px; top:800px;}
+            50%  {left:0px; top:0px;}
+            75%  {left:1730px; top:800px;}
+            100% {left:1730px; top:0px;}
+        }
+    </style>
 <!--幻灯片-->
 </head>
 
 <body>
+
+<div class="float_stu">
+    <a href=""><img src="Assets/upload/pic4.jpg" alt="刘某某"/></a>
+</div>
+
 <!--顶部-->
 <div class="h_top">
 	<div class="h_top_m">
