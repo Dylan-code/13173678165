@@ -8,10 +8,32 @@
 <!--幻灯片-->
 <script type="text/javascript" src="Assets/js/js_z.js"></script>
 <link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
+    <style>
+        .float_box {
+            position:absolute;
+            z-index:1000;
+            animation-name: example;
+            animation-duration: 100s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes example {
+            0%   {left:0px; top:0px;}
+            25%  {left:1580px; top:780px;}
+            50%  {left:1580px; top:0px;}
+            75%  {left:0px; top:780px;}
+            100% {left:0px; top:0px;}
+        }
+    </style>
 <!--幻灯片-->
 </head>
 
 <body>
+
+<div class="float_box">
+    <a href=""><img src="Assets/upload/pic2.jpg" alt="金百合名师团队"/></a>
+</div>
+
 <!--顶部-->
 <div class="h_top">
 	<div class="h_top_m">
@@ -141,7 +163,7 @@
             <li>
             	<b>最新活动</b>
                 <div class="f_nav_m">
-                	
+
                 </div>
             </li>
             <li>
